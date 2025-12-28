@@ -1,7 +1,7 @@
 import React from 'react'
-import Cart from './Components/Cart'
-import User from './Components/user'
-import WishList from './Components/wishlist'
+import Cart from './Cart'
+import User from './user'
+import WishList from './wishlist'
 import './style.css'
 
 function App() {
