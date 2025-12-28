@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { addWishList, addTwoWish, removeList, clearList } from '../Feature/wishlistSlice'
+import { addWishList, addTwoWish, removeList, clearList } from './wishlistSlice'
 
 function WishList() {
 
