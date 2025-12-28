@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { login, logout } from "../Feature/userSlice";
+import { login, logout } from "./userSlice";
 
 
 function User() {
