@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { addToCart, addTwoItems, removeItem, clearCart } from '../Feature/cartSlice'
+import { addToCart, addTwoItems, removeItem, clearCart } from './cartSlice'
 
 function Cart() {
   const cartCount = useSelector((state) => state.cart.count)
